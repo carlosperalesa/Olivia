@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: #373A3C; 
+    color: white;    
+}
+
+
+.navbar {
+    justify-content: left;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: white !important;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.hero-title {
+    text-align: right;
+    font: normal normal bold 70px/82px Raleway;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.about h1 {
+    text-align: center;
+    font: normal normal bold 50px/59px Raleway;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    font: normal normal bold 20px/24px Raleway;
+    letter-spacing: 0.2px;
+    color: #0F0F0F;
+    opacity: 1;
+}
+
+.about .me {
+    text-align: center;
+    font: normal normal normal 16px/25px Raleway;
+    letter-spacing: 0.32px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about .icon {
+    align-items: center;
+    align-content: center;
+
+}
+
+.trabajos {
+    background-color: #17A2B8;
+}
+
+.trabajos .title {
+    text-align: center;
+    font: normal normal bold 50px/59px Raleway;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.card {
+    width: 20rem;
+}
+
+/* .card img{
+    width: 387px;
+    height: 232px;
+
+} */
+
+.card-title {
+    text-align: left;
+    font: normal normal bold 26px/30px Raleway;
+    letter-spacing: 0px;
+    color: #0F0F0F;
+    opacity: 1;
+}
+
+.card-text {
+    letter-spacing: 0px;
+    color: #373A3C;
+    opacity: 1;
+}
+
+.tarjetas .btn {
+    background-color: #ffffff;
+    border-color: #17A2B8;
+    color: #17A2B8;
+}
+
+.texto-contacto1 {
+    text-align: center;
+    font: normal normal bold 50px/59px Raleway;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 1;
+}
+
+.texto-contacto2 {
+    text-align: center;
+    font: normal normal normal 16px/25px Raleway;
+    letter-spacing: 0.32px;
+    color: #000000;
+    opacity: 1;
+}
+
+.form .label {
+    text-align: left;
+    font: normal normal bold 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #373A3C;
+    opacity: 1;
+}
+
+#enviar {
+
+    text-align: center;
+    font: normal normal normal 16px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    align-items: center;
+    font: normal normal normal 16px/25px Raleway;
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    background-color: black;
+    opacity: 1;
+}
